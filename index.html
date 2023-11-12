@@ -1,0 +1,37 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+                
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <div class="score">
+                    <span id="scr-home"></span>
+                </div>
+                    <div class="buttons">
+                        <button onclick="addOneHome()" id="increment-one-home" class="increment-btn">+1</button>
+                        <button onclick="addTwoHome()" id="increment-two-home" class="increment-btn">+2</button>
+                        <button onclick="addThreeHome()" id="increment-three-home" class="increment-btn">+3</button>
+                    </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <div class="score">
+                    <span id="scr-guest"></span>
+                </div>
+                    <div class="buttons">
+                        <button onclick="addOneGuest()" id="increment-one-guest" class="increment-btn">+1</button>
+                        <button onclick="addTwoGuest()" id="increment-two-guest" class="increment-btn">+2</button>
+                        <button onclick="addThreeGuest()" id="increment-three-guest" class="increment-btn">+3</button>
+                    </div>
+            </div>
+        </div>
+                    <div class="newgamebutton">
+                        <button class="increment-btn" onclick="newGame()" id="new-game">Reset</button>
+                    </div>
+        <script src="index.js"></script>
+    </body>
+</html>
